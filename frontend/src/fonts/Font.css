@@ -1,0 +1,12 @@
+@font-face{
+    font-family:"Cafe24";
+    src: url('./Cafe24Ssurround.ttf') format('truetype');
+ }
+ @font-face{
+    font-family:"DoHyeon";
+    src: url('./DoHyeon-Regular.ttf') format('truetype');
+ }
+ @font-face {
+   font-family:"Titillium";
+   src: url('./TitilliumWeb-Bold.ttf') format('truetype');
+ }

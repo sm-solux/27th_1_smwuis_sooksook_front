@@ -1,0 +1,32 @@
+.studyname {
+    padding-right: 300px;
+}
+
+.block {
+    background-color: #c1daff;
+    padding: 12px 10px 8px 10px;
+}
+
+.newstudy {
+    width: 100px;
+    height: 30px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "DoHyeon";
+}
+
+.newstudy:hover {
+    border-color: navy;
+    transition: border-color 1s;
+}
+
+.table {
+    font-family: "DoHyeon";
+}
+
+.user {
+    font-size: 16px;
+}

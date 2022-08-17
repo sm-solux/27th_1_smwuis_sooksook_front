@@ -1,0 +1,55 @@
+.loginblock {
+    background-color: #c1daff;
+    padding: 12px 10px 10px 10px;
+    margin-bottom: 50px;
+}
+
+.login {
+    border-color: transparent;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-family: "DoHyeon";
+}
+
+.login:hover {
+    border-color: navy;
+    transition: border-color 1s;
+}
+
+.login a,
+.login a:hover {
+    color: inherit;
+}
+
+.join {
+    width: 50%;
+    height: 400px;
+    float: center;
+    margin-left: 23%;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-size: 17px;
+    background-color: rgb(245, 242, 242);
+    border-radius: 30px;
+    font-family: "DoHyeon";
+}
+
+.joinbutton {
+    float: right;
+    background-color: #c1daff;
+    border-color: transparent;
+    color: black
+}
+
+.joinbutton:hover {
+    color: inherit;
+    background-color: #c1daff;
+    border-color: transparent;
+}
+
+.form {
+    margin-right: 20%
+}

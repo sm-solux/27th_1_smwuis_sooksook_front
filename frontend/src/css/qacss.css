@@ -1,0 +1,48 @@
+.studyname {
+    padding-right: 300px;
+    font-size: 16px;
+}
+
+.user {
+    font-size: 16px;
+}
+
+.block {
+    background-color: #c1daff;
+    display: flex;
+    white-space: nowrap;
+    padding: 12px 10px 8px 10px;
+}
+
+.qanda {
+    background-color: #c1daff;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "DoHyeon";
+}
+
+.newstudy {
+    border-color: transparent;
+    float: right;
+    margin-left: 1290px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-family: "DoHyeon";
+    font-size: 17px;
+}
+
+.newstudy:hover {
+    border-color: navy;
+    transition: border-color 1s;
+}
+
+.newstudy a,
+.newstudy a:hover {
+    color: inherit;
+}
+
+.table {
+    font-family: "DoHyeon";
+}

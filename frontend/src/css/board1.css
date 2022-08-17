@@ -1,0 +1,122 @@
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.name {
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: -5px;
+    color: #013087;
+}
+
+.name a,
+.name a:hover {
+    color: inherit;
+}
+
+.logo {
+    width: auto;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.search {
+    width: 600px;
+    margin-top: 50px;
+}
+
+.studyname {
+    padding-right: 300px;
+}
+
+.block {
+    flex: display;
+    justify-content: space-between;
+    background-color: #c1daff;
+    padding: 12px 10px 8px 10px;
+}
+
+.arrow:hover {
+    width: 24px;
+}
+
+.arrow {
+    width: 21px;
+}
+
+.newstudy {
+    width: 100px;
+    height: 30px;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "DoHyeon";
+}
+
+.newstudy:hover {
+    border-color: navy;
+    transition: border-color 1s;
+}
+
+.newstudy a,
+.newstudy a:hover {
+    color: inherit;
+}
+
+.add {
+    float: right;
+    width: 70px;
+    margin-top: 15px;
+}
+
+.add:hover {
+    width: 75px;
+}
+
+.customer {
+    display: flex;
+    font-size: 11px;
+    margin-top: 60px;
+    text-align: right;
+}
+
+
+.topright {
+    width: 55px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.topright a,
+.topright a:hover {
+    color: inherit;
+}
+
+@media screen and (max-width:660px) {
+    .search {
+        display: none;
+    }
+
+    .customer {
+        display: none;
+    }
+}
+
+.table {
+    font-family: "DoHyeon";
+}
+
+.user {
+    font-size: 16px;
+}

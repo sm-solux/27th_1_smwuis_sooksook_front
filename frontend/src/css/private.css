@@ -1,0 +1,81 @@
+.block {
+    display: flex;
+    background-color: #c1daff;
+    width: 100%;
+    padding: 12px 10px 8px 10px;
+    justify-content: space-between;
+}
+
+.upcome {
+    background-color: #c1daff;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.prbutton {
+    border-color: transparent;
+    margin-right: 10px;
+    float: right;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.prbutton:hover {
+    border-color: navy;
+    transition: border-color 0.5s;
+}
+
+.prbutton a,
+.prbutton a:hover {
+    color: inherit;
+}
+
+.chart {
+    padding: 10px;
+    width: 500px;
+    height: auto;
+    background-color: #f0f3f9;
+    border-radius: 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+.pie {
+    margin: 10px;
+    height: 240px;
+}
+
+.ptitle {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.studyname {
+    padding-right: 300px;
+}
+
+.hp {
+    display: flex;
+    justify-content: center;
+}
+
+.spchart {
+    margin: 30px 10px 0px 10px;
+    width: 500px;
+    height: 280px;
+}
+
+.qrbutton {
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px 860px 0px 16px;
+}
